@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: llm-cost-router
+message: "Cost-aware multi-provider LLM router (cascade + learned)."
+authors:
+  - family-names: "Lingampally"
+    given-names: "Akshitha Reddy"
+date-released: "2024-08-15"
+version: "0.4.0"
+license: "MIT"
+url: "https://github.com/Akshitha024/llm-cost-router"
+keywords:
+  - "llm-inference"
+  - "cost-routing"
+  - "cascade"

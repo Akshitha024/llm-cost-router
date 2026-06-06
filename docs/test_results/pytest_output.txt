@@ -1,0 +1,19 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.3, pytest-9.0.3, pluggy-1.6.0 -- /Users/mani/Projects/akshitha-portfolio/projects/llm-cost-router/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/mani/Projects/akshitha-portfolio/projects/llm-cost-router
+configfile: pyproject.toml
+testpaths: tests
+plugins: cov-7.1.0
+collecting ... collected 8 items
+
+tests/test_dataset.py::test_count PASSED                                 [ 12%]
+tests/test_dataset.py::test_difficulty_mix_roughly_matches_target PASSED [ 25%]
+tests/test_dataset.py::test_seed_determinism PASSED                      [ 37%]
+tests/test_routers.py::test_cascade_routes_every_query PASSED            [ 50%]
+tests/test_routers.py::test_cascade_assigns_known_provider PASSED        [ 62%]
+tests/test_routers.py::test_learned_routes_every_query PASSED            [ 75%]
+tests/test_routers.py::test_learned_uses_at_least_one_provider PASSED    [ 87%]
+tests/test_runner.py::test_runner_smoke PASSED                           [100%]
+
+============================== 8 passed in 1.05s ===============================
