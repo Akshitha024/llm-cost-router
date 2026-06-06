@@ -37,10 +37,10 @@ LLM serving costs are dominated by a small fraction of "hard" queries that need 
 ```mermaid
 flowchart LR
   A[Query] --> B[Cheap provider]
-  B --> C{Confidence >= threshold?}
+  B --> C{"Confidence >= threshold?"}
   C -- yes --> Z[Commit cheap answer]
   C -- no --> D[Mid provider]
-  D --> E{Confidence >= threshold?}
+  D --> E{"Confidence >= threshold?"}
   E -- yes --> Z2[Commit mid answer]
   E -- no --> F[Expensive provider]
   F --> Z3[Commit expensive answer]

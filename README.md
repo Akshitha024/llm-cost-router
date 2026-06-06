@@ -25,8 +25,8 @@ Reproduce: `make install && make bench && make report`.
 
 ```mermaid
 flowchart LR
-  A[Synthetic query stream] --> B[Calibration split (30%)]
-  A --> C[Test split (70%)]
+  A[Synthetic query stream] --> B["Calibration split (30%)"]
+  A --> C["Test split (70%)"]
   B --> D[Train logistic-regression learned router]
   C --> E[Run 3 routers]
   D --> E
